@@ -1,0 +1,20 @@
+{
+  "name": "confidential-distribute",
+  "private": true,
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "workspaces": [
+    "packages/*",
+    "confidential-distribute/frontend"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w confidential-distribute",
+    "build": "npm run build -w confidential-distribute",
+    "build:shared": "npm run build -w @zama-season3/shared"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}

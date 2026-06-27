@@ -1,0 +1,8 @@
+{
+  "chainId": 11155111,
+  "contracts": {
+    "confidentialAirdropFactory": "0xbE6A3B78B36684fFee48De77d47Bc3393F5Acd4c",
+    "disperseConfidentialSingleton": "0x710dD9885Cc9986EfD234E7719483147a6d8DBb4"
+  },
+  "note": "Addresses from @tokenops/sdk DEPLOYED_ADDRESSES. Frontend uses SDK hooks; interfaces document the onchain integration surface."
+}
